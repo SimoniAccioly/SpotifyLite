@@ -15,9 +15,10 @@ namespace SpotifyLite.Repository.Mapping
         {
             builder.ToTable("Usuario");
             builder.HasKey(x => x.Id);
-            builder.Property(x =>x.Id).
+            builder.Property(x => x.Id).ValueGeneratedOnAdd();
+            builder.Property(x => x.Nome).IsRequired().HasMaxLength(200);
             builder.Property(x => x.Email);
-            builder.Property(x => x.DataLancamento).IsRequired();
+            builder.Property(x => x.Playlists);
         }
     }
 }
