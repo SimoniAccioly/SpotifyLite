@@ -1,0 +1,15 @@
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\bin\Debug\net6.0\SpotifyLite.Domain.deps.json
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\bin\Debug\net6.0\SpotifyLite.Domain.dll
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\bin\Debug\net6.0\SpotifyLite.Domain.pdb
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\bin\Debug\net6.0\SpotifyLite.CrossCutting.dll
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\bin\Debug\net6.0\SpotifyLite.CrossCutting.pdb
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.csproj.AssemblyReference.cache
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.AssemblyInfoInputs.cache
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.AssemblyInfo.cs
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.csproj.CoreCompileInputs.cache
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.csproj.CopyComplete
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.dll
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\refint\SpotifyLite.Domain.dll
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.pdb
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\ref\SpotifyLite.Domain.dll

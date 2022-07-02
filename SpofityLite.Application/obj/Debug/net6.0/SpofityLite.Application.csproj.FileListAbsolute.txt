@@ -1,0 +1,17 @@
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\bin\Debug\net6.0\SpofityLite.Application.deps.json
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\bin\Debug\net6.0\SpofityLite.Application.dll
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\bin\Debug\net6.0\SpofityLite.Application.pdb
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\bin\Debug\net6.0\SpotifyLite.CrossCutting.dll
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\bin\Debug\net6.0\SpotifyLite.Domain.dll
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\bin\Debug\net6.0\SpotifyLite.Domain.pdb
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\bin\Debug\net6.0\SpotifyLite.CrossCutting.pdb
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\obj\Debug\net6.0\SpofityLite.Application.csproj.AssemblyReference.cache
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\obj\Debug\net6.0\SpofityLite.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\obj\Debug\net6.0\SpofityLite.Application.AssemblyInfoInputs.cache
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\obj\Debug\net6.0\SpofityLite.Application.AssemblyInfo.cs
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\obj\Debug\net6.0\SpofityLite.Application.csproj.CoreCompileInputs.cache
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\obj\Debug\net6.0\SpofityLite.Application.csproj.CopyComplete
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\obj\Debug\net6.0\SpofityLite.Application.dll
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\obj\Debug\net6.0\refint\SpofityLite.Application.dll
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\obj\Debug\net6.0\SpofityLite.Application.pdb
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpofityLite.Application\obj\Debug\net6.0\ref\SpofityLite.Application.dll

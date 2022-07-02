@@ -22,6 +22,58 @@ namespace SpotifyLite.Repository.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("MusicaPlaylist", b =>
+                {
+                    b.Property<Guid>("MusicasId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("PlaylistsId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("MusicasId", "PlaylistsId");
+
+                    b.HasIndex("PlaylistsId");
+
+                    b.ToTable("MusicaPlaylist");
+                });
+
+            modelBuilder.Entity("SpotifyLite.Domain.Account.Playlist", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<Guid?>("UsuarioId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("Playlists", (string)null);
+                });
+
+            modelBuilder.Entity("SpotifyLite.Domain.Account.Usuario", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Usuarios", (string)null);
+                });
+
             modelBuilder.Entity("SpotifyLite.Domain.Album.Album", b =>
                 {
                     b.Property<Guid>("Id")
@@ -96,6 +148,74 @@ namespace SpotifyLite.Repository.Migrations
                     b.ToTable("Musica", (string)null);
                 });
 
+            modelBuilder.Entity("MusicaPlaylist", b =>
+                {
+                    b.HasOne("SpotifyLite.Domain.Album.Musica", null)
+                        .WithMany()
+                        .HasForeignKey("MusicasId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SpotifyLite.Domain.Account.Playlist", null)
+                        .WithMany()
+                        .HasForeignKey("PlaylistsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("SpotifyLite.Domain.Account.Playlist", b =>
+                {
+                    b.HasOne("SpotifyLite.Domain.Account.Usuario", null)
+                        .WithMany("Playlists")
+                        .HasForeignKey("UsuarioId");
+                });
+
+            modelBuilder.Entity("SpotifyLite.Domain.Account.Usuario", b =>
+                {
+                    b.OwnsOne("SpotifyLite.Domain.Account.ValueObject.Email", "Email", b1 =>
+                        {
+                            b1.Property<Guid>("UsuarioId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<string>("Valor")
+                                .IsRequired()
+                                .HasMaxLength(1024)
+                                .HasColumnType("nvarchar(1024)")
+                                .HasColumnName("Email");
+
+                            b1.HasKey("UsuarioId");
+
+                            b1.ToTable("Usuarios");
+
+                            b1.WithOwner()
+                                .HasForeignKey("UsuarioId");
+                        });
+
+                    b.OwnsOne("SpotifyLite.Domain.Account.ValueObject.Password", "Password", b1 =>
+                        {
+                            b1.Property<Guid>("UsuarioId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<string>("Valor")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)")
+                                .HasColumnName("Password");
+
+                            b1.HasKey("UsuarioId");
+
+                            b1.ToTable("Usuarios");
+
+                            b1.WithOwner()
+                                .HasForeignKey("UsuarioId");
+                        });
+
+                    b.Navigation("Email")
+                        .IsRequired();
+
+                    b.Navigation("Password")
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("SpotifyLite.Domain.Album.Album", b =>
                 {
                     b.HasOne("SpotifyLite.Domain.Album.Banda", null)
@@ -130,6 +250,11 @@ namespace SpotifyLite.Repository.Migrations
 
                     b.Navigation("Duracao")
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("SpotifyLite.Domain.Account.Usuario", b =>
+                {
+                    b.Navigation("Playlists");
                 });
 
             modelBuilder.Entity("SpotifyLite.Domain.Album.Album", b =>

@@ -1,0 +1,17 @@
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\bin\Debug\net6.0\SpotifyLite.Repository.deps.json
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\bin\Debug\net6.0\SpotifyLite.Repository.dll
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\bin\Debug\net6.0\SpotifyLite.Repository.pdb
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\bin\Debug\net6.0\SpotifyLite.CrossCutting.dll
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\bin\Debug\net6.0\SpotifyLite.Domain.dll
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\bin\Debug\net6.0\SpotifyLite.Domain.pdb
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\bin\Debug\net6.0\SpotifyLite.CrossCutting.pdb
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\obj\Debug\net6.0\SpotifyLite.Repository.csproj.AssemblyReference.cache
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\obj\Debug\net6.0\SpotifyLite.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\obj\Debug\net6.0\SpotifyLite.Repository.AssemblyInfoInputs.cache
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\obj\Debug\net6.0\SpotifyLite.Repository.AssemblyInfo.cs
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\obj\Debug\net6.0\SpotifyLite.Repository.csproj.CoreCompileInputs.cache
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\obj\Debug\net6.0\SpotifyLite.Repository.csproj.CopyComplete
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\obj\Debug\net6.0\SpotifyLite.Repository.dll
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\obj\Debug\net6.0\refint\SpotifyLite.Repository.dll
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\obj\Debug\net6.0\SpotifyLite.Repository.pdb
+C:\Users\simoni.vieira\Documents\Meuprojeto\SpotifyLite\SpotifyLite.Repository\obj\Debug\net6.0\ref\SpotifyLite.Repository.dll
