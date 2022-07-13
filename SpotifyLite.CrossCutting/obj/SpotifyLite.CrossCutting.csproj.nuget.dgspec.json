@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simoni.vieira\\Documents\\Meuprojeto\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {}
+    "D:\\Simoni\\Sources\\PÓS\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simoni.vieira\\Documents\\Meuprojeto\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {
+    "D:\\Simoni\\Sources\\PÓS\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simoni.vieira\\Documents\\Meuprojeto\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
+        "projectUniqueName": "D:\\Simoni\\Sources\\PÓS\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
         "projectName": "SpotifyLite.CrossCutting",
-        "projectPath": "C:\\Users\\simoni.vieira\\Documents\\Meuprojeto\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\simoni.vieira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simoni.vieira\\Documents\\Meuprojeto\\SpotifyLite\\SpotifyLite.CrossCutting\\obj\\",
+        "projectPath": "D:\\Simoni\\Sources\\PÓS\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
+        "outputPath": "D:\\Simoni\\Sources\\PÓS\\SpotifyLite\\SpotifyLite.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\simoni.vieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +46,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
             }
           },
           "imports": [
@@ -60,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

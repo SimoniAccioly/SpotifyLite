@@ -5,6 +5,7 @@ using SpotifyLite.Domain.Album.Repository;
 using SpotifyLite.Repository.Context;
 using SpotifyLite.Repository.Database;
 using SpotifyLite.Repository.Repository;
+using SpotifyLite.Repository.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,7 @@ namespace SpotifyLite.Repository
             services.AddScoped<IBandaRepository, BandaRepository>();
             services.AddScoped<IAlbumRepository, AlbumRepository>();
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IPlaylistRepository, PlaylistRepository>();
 
             return services;
         }

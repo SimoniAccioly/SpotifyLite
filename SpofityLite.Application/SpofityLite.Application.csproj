@@ -9,15 +9,13 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="11.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.6" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SpotifyLite.Domain\SpotifyLite.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Usuario\Profile\" />
-    <Folder Include="Usuario\Service\" />
   </ItemGroup>
 
 </Project>

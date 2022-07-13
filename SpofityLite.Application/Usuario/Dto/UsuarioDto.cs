@@ -1,4 +1,5 @@
 ﻿using SpotifyLite.Domain.Account.ValueObject;
+using SpotifyLite.Domain.Album.ValueObject;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -8,17 +9,23 @@ using System.Threading.Tasks;
 
 namespace SpofityLite.Application.Usuario.Dto
 {
-    public record UsuarioInputDto(string Nome, Email Email, Password Password, List<PlayListInputDto> PlayLists);
+    public record UsuarioInputDto(
+        [Required(ErrorMessage = "Nome é obrigatório")] string Nome, 
+        [Required(ErrorMessage = "E-mail é obrigatório")] Email Email, 
+        [Required(ErrorMessage = "Senha é obrigatória")] Password Password);
 
-    public record UsuarioOutputDto(Guid Id,  string Nome, Email Email, Password Password, List<PlayListOutputDto> PlayLists);
+    public record UsuarioOutputDto(Guid Id, string Nome, Email Email, Password Password);
 
-    public record PlayListInputDto(string Nome, List<MusicaInput> Musicas);
+    public record PlaylistInputDto(string Nome, List<MusicaInputDto>Musicas);
 
-    public record PlayListOutputDto(Guid Id, List<MusicaOutput> Musicas);
+    public record PlaylistOutputDto(Guid Id, List<MusicaOutputDto> Musicas);
 
-    public record MusicaInput(string Nome, int Duracao);
+    public record MusicaInputDto(Guid Id,string Musicas, Duracao Duracao);
 
-    public record MusicaOutput(Guid Id, string Nome, int Duracao);
+    public record MusicaOutputDto(Guid Id, string Musicas, Duracao Duracao);
+
+
+
 }
 
 
