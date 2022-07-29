@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w1YjzZg5I55ICY8J3MBmesB0jxfmHSxx1PD0x6RvCw/8o7xeCAMGhSQN4wmeoLDasOi6vFBn/Xa9C7nENljKeg==",
+  "dgSpecHash": "TJddcK7e5yTOA5V1tgIxXS0p6tcz7tApUVN1D/gKg2SeDTDuybAqD/CCKaaYyKQXkKxL7dHMosM90v2qfdWqtw==",
   "success": true,
-  "projectFilePath": "D:\\Simoni\\Sources\\PÓS\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
+  "projectFilePath": "D:\\Simoni\\Sources\\projeto_pós\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

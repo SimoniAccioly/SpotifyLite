@@ -1,18 +1,17 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SpofityLite.Application.Usuario.Dto;
-using SpofityLite.Application.Usuario.Handler.Command;
-using SpofityLite.Application.Usuario.Handler.Query;
+using SpofityLite.Application.Account.Dto;
+using SpofityLite.Application.Account.Handler.Command;
+using SpofityLite.Application.Account.Handler.Query;
 using SpotifyLite.Domain.Account.Repository;
 
 namespace SpotifyLite.Api.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        public readonly IMediator mediator;
+        private readonly IMediator mediator;
 
         public UsuarioController(IMediator mediator)
         {
@@ -20,15 +19,41 @@ namespace SpotifyLite.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get()
+        [Route("usuario/obter-todos")]
+        public async Task<IActionResult> ObterTodos()
         {
-            return Ok(await this.mediator.Send(new GetAllUsuarioQuery()));
+            return Ok(await this.mediator.Send(new ObterTodosUsuarioQuery()));
         }
+
+        [HttpGet]
+        [Route("usuario/obter-por-id/{id}")]
+        public async Task<IActionResult> ObterPorId(Guid id)
+        {
+            return Ok(await this.mediator.Send(new ObterPorIdUsuarioQuery(id)));
+        }
+
         [HttpPost]
+        [Route("usuario/criar")]
         public async Task<IActionResult> Criar(UsuarioInputDto dto)
         {
-            var result = await this.mediator.Send(new CreateUsuarioCommand(dto));
+            var result = await this.mediator.Send(new CriarUsuarioCommand(dto));
             return Created($"{result.Usuario.Id}", result.Usuario);
+        }
+
+        [HttpPut]
+        [Route("usuario/editar/{id}")]
+        public async Task<IActionResult> Editar(Guid id, [FromBody] UsuarioInputDto dto)
+        {
+            var result = await this.mediator.Send(new EditarUsuarioCommand(id, dto));
+            return Ok(result);
+        }
+
+        [HttpDelete]
+        [Route("usuario/excluir/{id}")]
+        public async Task<IActionResult> Excluir(Guid id)
+        {
+            var result = await this.mediator.Send(new ExcluirUsuarioCommand(id));
+            return Ok(result);
         }
     }
 }

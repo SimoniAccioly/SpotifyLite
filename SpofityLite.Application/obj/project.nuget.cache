@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/0amyvtMEN3Ven2JTl+4ZhSS262QTnprNkkxpg5DcTpv45+fEG4ELUCxC/rXYVb+YwOazdUX7aNbwPw7xVLpkQ==",
+  "dgSpecHash": "y2uaBLkiVk3rE9jU5JgxpC7YS0NLrpctUR7UrPliS8fQkLPOzCtxznfzlej+FatSStMYsjSWUJfFP6b2hmnsbQ==",
   "success": true,
-  "projectFilePath": "D:\\Simoni\\Sources\\PÓS\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj",
+  "projectFilePath": "D:\\Simoni\\Sources\\projeto_pós\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simon\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
