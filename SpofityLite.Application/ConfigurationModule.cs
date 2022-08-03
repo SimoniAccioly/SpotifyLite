@@ -2,11 +2,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using SpofityLite.Application.Account.Service;
 using SpofityLite.Application.Album.Service;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SpofityLite.Application
 {

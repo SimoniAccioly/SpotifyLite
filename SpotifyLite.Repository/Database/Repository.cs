@@ -2,13 +2,8 @@
 using Microsoft.EntityFrameworkCore.Storage;
 using SpotifyLite.CrossCutting.Repository;
 using SpotifyLite.Repository.Context;
-using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SpotifyLite.Repository.Database
 {

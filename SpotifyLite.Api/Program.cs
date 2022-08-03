@@ -1,7 +1,6 @@
-using SpotifyLite.Repository.Context;
 using Microsoft.EntityFrameworkCore;
-using SpotifyLite.Repository;
 using SpofityLite.Application;
+using SpotifyLite.Repository;
 
 namespace SpotifyLite.Api
 {

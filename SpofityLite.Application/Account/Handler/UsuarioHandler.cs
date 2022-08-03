@@ -2,11 +2,6 @@
 using SpofityLite.Application.Account.Handler.Command;
 using SpofityLite.Application.Account.Handler.Query;
 using SpofityLite.Application.Account.Service;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SpofityLite.Application.Account.Handler
 {

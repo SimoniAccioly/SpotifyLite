@@ -2,11 +2,6 @@
 using SpofityLite.Application.Album.Handler.Command;
 using SpofityLite.Application.Album.Handler.Query;
 using SpofityLite.Application.Album.Service;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SpofityLite.Application.Album.Handler
 {

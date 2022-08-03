@@ -2,11 +2,6 @@
 using SpofityLite.Application.Account.Dto;
 using SpotifyLite.Domain.Account;
 using SpotifyLite.Domain.Account.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SpofityLite.Application.Account.Service
 {
