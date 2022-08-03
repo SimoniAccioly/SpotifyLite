@@ -20,7 +20,7 @@ namespace SpofityLite.Application.Album.Service
             this.mapper = mapper;
         }
 
-        public async Task<AlbumOutputDto> Criar(AlbumInputDto dto)
+        public async Task<AlbumOutputDto> Create(AlbumInputDto dto)
         {
             var album = this.mapper.Map<SpotifyLite.Domain.Album.Album>(dto);
 
@@ -30,13 +30,36 @@ namespace SpofityLite.Application.Album.Service
 
         }
 
-        public async Task<List<AlbumOutputDto>> ObterTodos()
+        public async Task<List<AlbumOutputDto>> GetAll()
         {
             var album = await this.albumRepository.GetAll();
 
             return this.mapper.Map<List<AlbumOutputDto>>(album);
         }
 
+        public async Task<AlbumOutputDto> Edit(Guid id, AlbumInputDto dto)
+        {
+            var album = this.mapper.Map<SpotifyLite.Domain.Album.Album>(dto);
+            album.Id = id;
 
+            await this.albumRepository.Update(album);
+
+            return this.mapper.Map<AlbumOutputDto>(album);
+        }
+
+        public async Task<AlbumOutputDto> Delete(Guid id)
+        {
+            var album = await this.albumRepository.Get(id);
+
+            await this.albumRepository.Delete(album);
+
+            return this.mapper.Map<AlbumOutputDto>(album);
+        }
+        public async Task<AlbumOutputDto> GetId(Guid id)
+        {
+            var result = await this.albumRepository.Get(id);
+
+            return this.mapper.Map<AlbumOutputDto>(result);
+        }
     }
 }

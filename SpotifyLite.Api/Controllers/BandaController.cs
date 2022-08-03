@@ -1,36 +1,59 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using SpofityLite.Application.Album.Dto;
-using SpofityLite.Application.Album.Service;
+using SpofityLite.Application.Album.Handler.Command;
+using SpofityLite.Application.Album.Handler.Query;
 
 namespace SpotifyLite.Api.Controllers
 {
-    [Route("api/[controller]")]
+   
     [ApiController]
     public class BandaController : ControllerBase
     {
-        private readonly IBandaService bandaService;
+        private readonly IMediator mediator;
 
-        public BandaController(IBandaService bandaService)
+        public BandaController(IMediator mediator)
         {
-            this.bandaService = bandaService;
+            this.mediator = mediator;
         }
 
         [HttpGet]
-        public async Task<IActionResult> ObterTodos()
+        [Route("banda/obter-todos")]
+        public async Task<IActionResult> GetAll()
         {
-            return Ok(await this.bandaService.ObterTodos());
+            return Ok(await this.mediator.Send(new GetAllBandaQuery()));
+        }
+
+        [HttpGet]
+        [Route("banda/obter-por-id/{id}")]
+        public async Task<IActionResult> GetId(Guid id)
+        {
+            return Ok(await this.mediator.Send(new GetIdBandaQuery(id)));
         }
 
         [HttpPost]
-        public async Task<IActionResult> Criar(BandaInputDto dto)
+        [Route("banda/criar")]
+        public async Task<IActionResult> Create(BandaInputDto dto)
         {
-            if (ModelState.IsValid == false)
-                return BadRequest(ModelState);
+            var result = await this.mediator.Send(new CreateBandaCommand(dto));
+            return Created($"{result.Banda.Id}", result.Banda);
+        }
 
-            var result = await this.bandaService.Criar(dto);
+        [HttpPut]
+        [Route("banda/editar/{id}")]
+        public async Task<IActionResult> Edit(Guid id, [FromBody] BandaInputDto dto)
+{
+            var result = await this.mediator.Send(new EditBandaCommand(id, dto));
+            return Ok(result);
+        }
 
-            return Created($"/{result.Id}", result);
+        [HttpDelete]
+        [Route("banda/excluir/{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            var result = await this.mediator.Send(new DeleteBandaCommand(id));
+            return Ok(result);
         }
     }
 }
+

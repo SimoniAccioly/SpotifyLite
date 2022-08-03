@@ -8,7 +8,6 @@ using SpotifyLite.Domain.Album.Repository;
 
 namespace SpotifyLite.Api.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
     public class AlbumController : ControllerBase
     {
@@ -20,18 +19,43 @@ namespace SpotifyLite.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get()
+        [Route("album/obter-todos")]
+        public async Task<IActionResult> GetAll()
         {
-            return Ok(await this.mediator.Send(new GetAllAlbumQuery()));
+            var result = await this.mediator.Send(new GetAllAlbumQuery());
+            return Ok(result);
         }
 
         [HttpPost()]
-        public async Task<IActionResult> Criar(AlbumInputDto dto)
+        [Route("album/criar")]
+        public async Task<IActionResult> Create(AlbumInputDto dto)
         {
             var result = await this.mediator.Send(new CreateAlbumCommand(dto));
             return Created($"{result.Album.Id}", result.Album);
         }
 
+        [HttpGet]
+        [Route("album/obter-por-id/{id}")]
+        public async Task<IActionResult> GetId(Guid id)
+        {
+            var result = await this.mediator.Send(new GetIdAlbumQuery(id));
+            return Ok(result);
+        }
 
+        [HttpPut]
+        [Route("album/editar/{id}")]
+        public async Task<IActionResult> Edit(Guid id, [FromBody] AlbumInputDto dto)
+        {
+            var result = await this.mediator.Send(new EditAlbumCommand(id, dto));
+            return Ok(result);
+        }
+
+        [HttpDelete]
+        [Route("album/excluir/{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            var result = await this.mediator.Send(new DeleteAlbumCommand(id));
+            return Ok(result);
+        }
     }
 }
