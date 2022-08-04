@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4g5USTG4DYrlmTRCQnEZI72z9ZY259B0NTj1Ti/g5gKClrVrac8O/xDYXHFAQ/C6sNcGufCuHUxWkcFFr4Kz2Q==",
+  "dgSpecHash": "aUi1e5xp5rKFqOz+5So4hZ+Iw47R6YcOXBRyaqshSzRwCXCZpOo/e46BFDf7jRdgt8gnNUfqTFDlylDQ1PGEgA==",
   "success": true,
-  "projectFilePath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj",
+  "projectFilePath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simon\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

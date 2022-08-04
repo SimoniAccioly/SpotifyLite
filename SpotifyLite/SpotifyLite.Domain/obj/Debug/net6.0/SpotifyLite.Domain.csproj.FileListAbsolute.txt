@@ -73,3 +73,18 @@ D:\Simoni\Sources\pos_infnet\SpotifyLite\SpotifyLite\SpotifyLite.Domain\obj\Debu
 D:\Simoni\Sources\pos_infnet\SpotifyLite\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\refint\SpotifyLite.Domain.dll
 D:\Simoni\Sources\pos_infnet\SpotifyLite\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.pdb
 D:\Simoni\Sources\pos_infnet\SpotifyLite\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\ref\SpotifyLite.Domain.dll
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\bin\Debug\net6.0\SpotifyLite.Domain.deps.json
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\bin\Debug\net6.0\SpotifyLite.Domain.dll
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\bin\Debug\net6.0\SpotifyLite.Domain.pdb
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\bin\Debug\net6.0\SpotifyLite.CrossCutting.dll
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\bin\Debug\net6.0\SpotifyLite.CrossCutting.pdb
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.csproj.AssemblyReference.cache
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.AssemblyInfoInputs.cache
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.AssemblyInfo.cs
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.csproj.CoreCompileInputs.cache
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.csproj.CopyComplete
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.dll
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\refint\SpotifyLite.Domain.dll
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\SpotifyLite.Domain.pdb
+D:\Simoni\Sources\ProjetoFinal- pós\SpotifyLite\SpotifyLite\SpotifyLite.Domain\obj\Debug\net6.0\ref\SpotifyLite.Domain.dll

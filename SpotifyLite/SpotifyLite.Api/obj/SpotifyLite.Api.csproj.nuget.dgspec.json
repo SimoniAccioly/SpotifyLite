@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj": {}
+    "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj": {}
   },
   "projects": {
-    "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj": {
+    "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj",
+        "projectUniqueName": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj",
         "projectName": "SpofityLite.Application",
-        "projectPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj",
+        "projectPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj",
         "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\obj\\",
+        "outputPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj": {
-                "projectPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj"
+              "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj": {
+                "projectPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj": {
+    "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj",
+        "projectUniqueName": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj",
         "projectName": "SpotifyLite.Api",
-        "projectPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj",
+        "projectPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj",
         "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\obj\\",
+        "outputPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -114,11 +114,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj": {
-                "projectPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj"
+              "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj": {
+                "projectPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj"
               },
-              "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj": {
-                "projectPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj"
+              "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj": {
+                "projectPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj"
               }
             }
           }
@@ -180,14 +180,14 @@
         }
       }
     },
-    "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {
+    "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
+        "projectUniqueName": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
         "projectName": "SpotifyLite.CrossCutting",
-        "projectPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
+        "projectPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\obj\\",
+        "outputPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -247,14 +247,14 @@
         }
       }
     },
-    "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj": {
+    "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj",
+        "projectUniqueName": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj",
         "projectName": "SpotifyLite.Domain",
-        "projectPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj",
+        "projectPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj",
         "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\obj\\",
+        "outputPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -274,8 +274,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {
-                "projectPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj"
+              "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {
+                "projectPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj"
               }
             }
           }
@@ -318,14 +318,14 @@
         }
       }
     },
-    "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj": {
+    "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj",
+        "projectUniqueName": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj",
         "projectName": "SpotifyLite.Repository",
-        "projectPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj",
+        "projectPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj",
         "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\obj\\",
+        "outputPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -345,8 +345,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj": {
-                "projectPath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj"
+              "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj": {
+                "projectPath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj"
               }
             }
           }

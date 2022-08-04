@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iWnnyflbcRxBevGvp0hy7DEOocU+A0IWM/1N1M5EL1zqZG3VQcUYyakGKGYN0xmXwB4/RA+Rf08yPhWbpzN1PQ==",
+  "dgSpecHash": "Q+f/GzYh5Pelk25eNDZpx8cTzLNJr142x0Iw/RqgG7vaWIWsCAAUnxZ/T1j9Y9pJ12E5zNldkGpZ6o5rXiiSmw==",
   "success": true,
-  "projectFilePath": "D:\\Simoni\\Sources\\pos_infnet\\SpotifyLite\\SpotifyLite\\SpotifyLite.Test\\SpotifyLite.Test.csproj",
+  "projectFilePath": "D:\\Simoni\\Sources\\ProjetoFinal- pós\\SpotifyLite\\SpotifyLite\\SpotifyLite.Test\\SpotifyLite.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simon\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
