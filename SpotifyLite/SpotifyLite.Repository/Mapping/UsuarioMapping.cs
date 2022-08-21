@@ -23,7 +23,7 @@ namespace SpotifyLite.Repository.Mapping
                 p.Property(f => f.Valor).HasColumnName("Email").IsRequired().HasMaxLength(1024);
             });
 
-            builder.HasMany(x => x.Playlists).WithOne();
+            builder.HasMany(x => x.Playlists).WithOne().OnDelete(DeleteBehavior.ClientCascade);
 
 
 

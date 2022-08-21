@@ -7,8 +7,8 @@ namespace SpofityLite.Application.Account.Service
 {
     public class UsuarioService : IUsuarioService
     {
-        IUsuarioRepository usuarioRepository;
-        IMapper mapper;
+        private readonly IUsuarioRepository usuarioRepository;
+        private readonly IMapper mapper;
 
         public UsuarioService(IUsuarioRepository usuarioRepository, IMapper mapper)
         {

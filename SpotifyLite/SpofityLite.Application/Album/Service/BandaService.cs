@@ -32,10 +32,9 @@ namespace SpofityLite.Application.Album.Service
             return this.mapper.Map<List<BandaOutputDto>>(result);
         }
 
-        public async Task<BandaOutputDto> Edit(Guid id, BandaInputDto dto)
+        public async Task<BandaOutputDto> Edit(BandaUpdateDto dto)
         {
             var banda = this.mapper.Map<Banda>(dto);
-            banda.Id = id;
 
             await this.bandaRepository.Update(banda);
 

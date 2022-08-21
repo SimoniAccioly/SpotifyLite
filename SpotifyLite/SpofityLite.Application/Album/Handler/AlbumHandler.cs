@@ -32,7 +32,7 @@ namespace SpofityLite.Application.Album.Handler
 
         public async Task<EditAlbumCommandResponse> Handle(EditAlbumCommand request, CancellationToken cancellationToken)
         {
-            var result = await this._albumService.Edit(request.Id, request.Album);
+            var result = await this._albumService.Edit(request.Album);
 
             return new EditAlbumCommandResponse(result);
         }

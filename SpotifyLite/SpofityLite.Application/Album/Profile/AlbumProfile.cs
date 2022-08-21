@@ -13,6 +13,11 @@ namespace SpofityLite.Application.Album.Profile
             CreateMap<MusicaInputDto, Musica>()
                 .ForPath(x => x.Duracao.Valor, f => f.MapFrom(m => m.Duracao));
 
+            CreateMap<MusicaUpdateDto, Musica>()
+              .ForPath(x => x.Duracao.Valor, f => f.MapFrom(m => m.Duracao));
+
+            CreateMap<AlbumUpdateDto, SpotifyLite.Domain.Album.Album>();
+
             CreateMap<SpotifyLite.Domain.Album.Album, AlbumOutputDto>();
 
             CreateMap<AlbumInputDto, SpotifyLite.Domain.Album.Album>();
@@ -21,6 +26,7 @@ namespace SpofityLite.Application.Album.Profile
 
             CreateMap<Banda, BandaOutputDto>();
 
+            CreateMap<BandaUpdateDto, Banda>();
         }
 
     }

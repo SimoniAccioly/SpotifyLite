@@ -5,12 +5,10 @@ namespace SpofityLite.Application.Album.Handler.Command
 {
     public class EditBandaCommand : IRequest<EditBandaCommandResponse>
     {
-        public Guid Id { get; set; }
-        public BandaInputDto Banda { get; set; }
+        public BandaUpdateDto Banda { get; set; }
 
-        public EditBandaCommand(Guid id, BandaInputDto banda)
+        public EditBandaCommand(BandaUpdateDto banda)
         {
-            Id = id;
             Banda = banda;
         }
     }

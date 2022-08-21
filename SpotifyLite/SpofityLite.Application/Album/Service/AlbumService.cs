@@ -32,10 +32,9 @@ namespace SpofityLite.Application.Album.Service
             return this.mapper.Map<List<AlbumOutputDto>>(album);
         }
 
-        public async Task<AlbumOutputDto> Edit(Guid id, AlbumInputDto dto)
+        public async Task<AlbumOutputDto> Edit(AlbumUpdateDto dto)
         {
             var album = this.mapper.Map<SpotifyLite.Domain.Album.Album>(dto);
-            album.Id = id;
 
             await this.albumRepository.Update(album);
 

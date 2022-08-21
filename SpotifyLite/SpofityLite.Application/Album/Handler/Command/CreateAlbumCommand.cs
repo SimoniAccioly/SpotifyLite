@@ -6,9 +6,7 @@ namespace SpofityLite.Application.Album.Handler.Command
     public class CreateAlbumCommand : IRequest<CreateAlbumCommandResponse>
     {
         public AlbumInputDto Album { get; set; }
-
-        public Guid IdBanda { get; set; }
-
+    
         public CreateAlbumCommand(AlbumInputDto album)
         {
             Album = album;

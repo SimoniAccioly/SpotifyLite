@@ -4,6 +4,8 @@ namespace SpofityLite.Application.Album.Dto
 {
     public record AlbumInputDto(string Nome, DateTime DataLancamento, string Backdrop, List<MusicaInputDto> Musicas);
     public record AlbumOutputDto(Guid Id, string Nome, DateTime DataLancamento, string Backdrop, List<MusicaOutputDto> Musicas);
+    public record AlbumUpdateDto(Guid Id, string Nome, DateTime DataLancamento, string Backdrop, List<MusicaUpdateDto> Musicas);
+    public record MusicaUpdateDto(Guid Id, string Nome, int Duracao);
     public record MusicaInputDto(string Nome, int Duracao);
     public record MusicaOutputDto(Guid Id, string Nome, string Duracao);
     public record BandaInputDto(
@@ -11,5 +13,10 @@ namespace SpofityLite.Application.Album.Dto
                 [Required(ErrorMessage = "Foto é obrigatório")] string Foto, 
                 [Required(ErrorMessage = "Descrição é obrigatório")] string Descricao);
     public record BandaOutputDto(Guid Id, string Nome, string Foto, string Descricao);
+    public record BandaUpdateDto(
+       Guid Id,
+       [Required(ErrorMessage = "Nome é obrigatório")] string Nome,
+       [Required(ErrorMessage = "Foto é obrigatório")] string Foto,
+       [Required(ErrorMessage = "Descrição é obrigatório")] string Descricao);
 
 }
