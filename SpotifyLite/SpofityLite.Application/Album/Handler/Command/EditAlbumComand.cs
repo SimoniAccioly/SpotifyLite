@@ -5,9 +5,11 @@ namespace SpofityLite.Application.Album.Handler.Command
 {
     public class EditAlbumCommand : IRequest<EditAlbumCommandResponse>
     {
-        public AlbumUpdateDto Album { get; set; }
+        public Guid Id { get; set; }
+        public AlbumInputDto Album { get; set; }
 
-        public EditAlbumCommand(AlbumUpdateDto album)
+
+        public EditAlbumCommand(AlbumInputDto album)
         {
             Album = album;
         }

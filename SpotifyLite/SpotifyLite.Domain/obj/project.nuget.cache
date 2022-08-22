@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XxGbcBxVSjWgx8E8PH+Dc7+huxtesqfl4npu8wDttSw7pDiAcIenwhb6VMFWQHvliwyiWVQtBi/z+dr/pye9HA==",
+  "dgSpecHash": "jRwqK279ZqhKGuZuWcJtK4J7B8IrncLEJOUnufGtBmIt1+QLj85H6U6SrAA8tW2Oq/DSzG80mLKm3o3WHVBYNw==",
   "success": true,
-  "projectFilePath": "D:\\Simoni\\Sources\\ProjetoFinal_Pos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj",
+  "projectFilePath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simon\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

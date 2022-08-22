@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+77eoio95HNbDDXXThk1SbWbyfGqfrne7tScyUpk6ER+eQ34WO3VHlJpIZtan1nILRc8uYDCtklUw7qPx3nDDQ==",
+  "dgSpecHash": "Ra2IKrjOyICeEK60DldEI8XFHvTtgRrJHmsLyZIFRc8H1+Cfp5nQJLsXKpDu6s/ie6Zf7BX+1dwW10fEXQOaLQ==",
   "success": true,
-  "projectFilePath": "D:\\Simoni\\Sources\\ProjetoFinal_Pos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj",
+  "projectFilePath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simon\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\simon\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",

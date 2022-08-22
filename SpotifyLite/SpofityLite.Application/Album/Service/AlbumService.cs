@@ -32,7 +32,7 @@ namespace SpofityLite.Application.Album.Service
             return this.mapper.Map<List<AlbumOutputDto>>(album);
         }
 
-        public async Task<AlbumOutputDto> Edit(AlbumUpdateDto dto)
+        public async Task<AlbumOutputDto> Edit(AlbumInputDto dto)
         {
             var album = this.mapper.Map<SpotifyLite.Domain.Album.Album>(dto);
 

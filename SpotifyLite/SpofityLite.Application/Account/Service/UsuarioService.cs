@@ -31,7 +31,6 @@ namespace SpofityLite.Application.Account.Service
         public async Task<UsuarioOutputDto> Editar(Guid id, UsuarioInputDto dto)
         {
             var usuario = this.mapper.Map<Usuario>(dto);
-            usuario.Id = id;
 
             usuario.Validate();
             usuario.SetPassword();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Simoni\\Sources\\ProjetoFinal_Pos\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {}
+    "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {}
   },
   "projects": {
-    "D:\\Simoni\\Sources\\ProjetoFinal_Pos\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {
+    "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simoni\\Sources\\ProjetoFinal_Pos\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
+        "projectUniqueName": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
         "projectName": "SpotifyLite.CrossCutting",
-        "projectPath": "D:\\Simoni\\Sources\\ProjetoFinal_Pos\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
+        "projectPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "D:\\Simoni\\Sources\\ProjetoFinal_Pos\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\obj\\",
+        "outputPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

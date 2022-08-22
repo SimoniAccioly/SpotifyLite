@@ -41,8 +41,8 @@ namespace SpotifyLite.Api.Controllers
         }
 
         [HttpPut]
-        [Route("album/editar")]
-        public async Task<IActionResult> Edit([FromBody] AlbumUpdateDto dto)
+        [Route("album/editar/{id}")]
+        public async Task<IActionResult> Edit([FromBody] AlbumInputDto dto)
         {
             var result = await this.mediator.Send(new EditAlbumCommand(dto));
             return Ok(result);

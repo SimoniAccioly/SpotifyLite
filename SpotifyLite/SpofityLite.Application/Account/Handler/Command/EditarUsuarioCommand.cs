@@ -8,9 +8,8 @@ namespace SpofityLite.Application.Account.Handler.Command
         public Guid Id { get; set; }
         public UsuarioInputDto Usuario { get; set; }
 
-        public EditarUsuarioCommand(Guid id, UsuarioInputDto usuario)
+        public EditarUsuarioCommand(UsuarioInputDto usuario)
         {
-            Id = id;
             Usuario = usuario;
         }
     }

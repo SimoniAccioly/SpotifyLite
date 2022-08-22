@@ -40,9 +40,9 @@ namespace SpotifyLite.Api.Controllers
 
         [HttpPut]
         [Route("usuario/editar/{id}")]
-        public async Task<IActionResult> Editar(Guid id, [FromBody] UsuarioInputDto dto)
+        public async Task<IActionResult> Editar([FromBody] UsuarioInputDto dto)
         {
-            var result = await this.mediator.Send(new EditarUsuarioCommand(id, dto));
+            var result = await this.mediator.Send(new EditarUsuarioCommand(dto));
             return Ok(result);
         }
 

@@ -4,7 +4,6 @@ namespace SpofityLite.Application.Album.Dto
 {
     public record AlbumInputDto(string Nome, DateTime DataLancamento, string Backdrop, List<MusicaInputDto> Musicas);
     public record AlbumOutputDto(Guid Id, string Nome, DateTime DataLancamento, string Backdrop, List<MusicaOutputDto> Musicas);
-    public record AlbumUpdateDto(Guid Id, string Nome, DateTime DataLancamento, string Backdrop, List<MusicaUpdateDto> Musicas);
     public record MusicaUpdateDto(Guid Id, string Nome, int Duracao);
     public record MusicaInputDto(string Nome, int Duracao);
     public record MusicaOutputDto(Guid Id, string Nome, string Duracao);
