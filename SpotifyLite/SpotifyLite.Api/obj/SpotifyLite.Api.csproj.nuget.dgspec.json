@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj": {}
+    "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj": {}
   },
   "projects": {
-    "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj": {
+    "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj",
+        "projectUniqueName": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj",
         "projectName": "SpofityLite.Application",
-        "projectPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj",
-        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\obj\\",
+        "projectPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj",
+        "packagesPath": "C:\\Users\\simoni.vieira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\simoni.vieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj": {
-                "projectPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj"
+              "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj": {
+                "projectPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj"
               }
             }
           }
@@ -86,7 +88,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -95,24 +98,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj": {
+    "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj",
+        "projectUniqueName": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj",
         "projectName": "SpotifyLite.Api",
-        "projectPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj",
-        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\obj\\",
+        "projectPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\SpotifyLite.Api.csproj",
+        "packagesPath": "C:\\Users\\simoni.vieira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\simoni.vieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,17 +124,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj": {
-                "projectPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj"
+              "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj": {
+                "projectPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpofityLite.Application\\SpofityLite.Application.csproj"
               },
-              "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj": {
-                "projectPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj"
+              "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj": {
+                "projectPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj"
               }
             }
           }
@@ -176,7 +181,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -188,24 +194,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {
+    "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
         "projectName": "SpotifyLite.CrossCutting",
-        "projectPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\obj\\",
+        "projectPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\simoni.vieira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\simoni.vieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -213,6 +220,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -258,7 +266,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -267,24 +276,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj": {
+    "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj",
         "projectName": "SpotifyLite.Domain",
-        "projectPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj",
-        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\obj\\",
+        "projectPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj",
+        "packagesPath": "C:\\Users\\simoni.vieira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\simoni.vieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -292,14 +302,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {
-                "projectPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj"
+              "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.CrossCutting\\SpotifyLite.CrossCutting.csproj"
               }
             }
           }
@@ -341,7 +352,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -350,24 +362,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj": {
+    "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj",
         "projectName": "SpotifyLite.Repository",
-        "projectPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj",
-        "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\obj\\",
+        "projectPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\SpotifyLite.Repository.csproj",
+        "packagesPath": "C:\\Users\\simoni.vieira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\simoni.vieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -375,14 +388,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj": {
-                "projectPath": "D:\\Simoni\\Sources\\Pos_proj_final\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj"
+              "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj": {
+                "projectPath": "C:\\Users\\simoni.vieira\\Source\\Repos\\SpotifyLite\\SpotifyLite\\SpotifyLite.Domain\\SpotifyLite.Domain.csproj"
               }
             }
           }
@@ -428,7 +442,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -437,7 +452,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
