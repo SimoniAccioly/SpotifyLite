@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using SpofityLite.Application.Album.Dto;
+using SpotifyLite.CrossCutting.Infrastructure;
 using SpotifyLite.Domain.Album.Repository;
+
 
 namespace SpofityLite.Application.Album.Service
 {
@@ -8,16 +10,36 @@ namespace SpofityLite.Application.Album.Service
     {
         private readonly IAlbumRepository albumRepository;
         private readonly IMapper mapper;
+        private readonly IHttpClientFactory httpClientFactory;
+        private readonly AzureBlobStorage storage;
 
-        public AlbumService(IAlbumRepository albumRepository, IMapper mapper)
+        public AlbumService(IAlbumRepository albumRepository, IMapper mapper, IHttpClientFactory httpClientFactory, AzureBlobStorage storage)
         {
             this.albumRepository = albumRepository;
             this.mapper = mapper;
+            this.httpClientFactory = httpClientFactory;
+            this.storage = storage;
         }
 
         public async Task<AlbumOutputDto> Create(AlbumInputDto dto)
         {
             var album = this.mapper.Map<SpotifyLite.Domain.Album.Album>(dto);
+
+            HttpClient httpClient = this.httpClientFactory.CreateClient();
+
+            using var response = await httpClient.GetAsync(album.Backdrop);
+
+            if (response.IsSuccessStatusCode)
+            {
+                using var stream = await response.Content.ReadAsStreamAsync();
+
+                var fileName = $"{Guid.NewGuid()}.jpg";
+
+                var pathStorage = await this.storage.UploadFile(fileName, stream);
+
+                album.Backdrop = pathStorage;
+
+            }
 
             await this.albumRepository.Save(album);
 

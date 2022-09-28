@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using SpotifyLite.CrossCutting.Infrastructure;
 using SpotifyLite.Domain.Account.Repository;
 using SpotifyLite.Domain.Album.Repository;
 using SpotifyLite.Repository.Context;
@@ -22,6 +23,7 @@ namespace SpotifyLite.Repository
             services.AddScoped<IAlbumRepository, AlbumRepository>();
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<IPlaylistRepository, PlaylistRepository>();
+            services.AddScoped<AzureBlobStorage>();
 
             return services;
         }
