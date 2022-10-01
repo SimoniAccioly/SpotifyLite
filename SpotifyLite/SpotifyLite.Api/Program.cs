@@ -24,7 +24,7 @@ namespace SpotifyLite.Api
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Carteira do Investidor", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "SpotifyLite", Version = "v1" });
             });
 
             var app = builder.Build();
@@ -34,7 +34,7 @@ namespace SpotifyLite.Api
 
             app.UseSwagger();
 
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Carteira do Investidor v1"));
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SpotifyLite v1"));
 
             app.UseHttpsRedirection();
 
